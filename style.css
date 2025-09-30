@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fjalla+One&family=Great+Vibes&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lobster&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+IE+Guides&family=Rubik+Vinyl&family=Space+Grotesk:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fjalla One", serif;
+}
+
+nav .navbar-brand{
+    font-family: "Playwrite IE Guides", serif;
+}
+
+.home .side-bar{
+    height: 100vh;
+    background-color: #1e905b;
+
+}
+
+.home .card_section img{
+    height: 300px;
+}
+
+.home .card_section{
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.color-btn #pink{
+    width: 25px;
+    height: 25px;
+    background-color: palevioletred;
+    border-radius: 50%;
+}
+
+.color-btn #white{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(218, 213, 213);
+    border-radius: 50%;
+}
+
+.color-btn #black{
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 0 10px;
+
+}
+
+.move{
+    border: 2px solid green;
+}
+
+@media only screen and (max-width:767px) {
+    .home .side-bar{
+        height: auto;
+    }
+}
